@@ -79,10 +79,7 @@ In contrast, a naive replication system storing the same data across 1000 nodes 
 ## 📚 Codebase Highlights
 
 - 100% **Rust** implementation
-- Modular and well-organized:
-  - `super_block.rs`, `addresses_block.rs`, `bitmaps_block.rs`
-  - `data_block.rs`, `inode_block.rs`
-  - `rdfs_errors.rs` for custom error handling
+- Modular and well-organized
 - Efficient binary serialization and deserialization
 - All structures include `to_bytes` / `from_bytes`
 - UTF-32 support for international and emoji-compatible filenames
