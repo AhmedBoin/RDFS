@@ -1,0 +1,22 @@
+[package]
+name = "rdfs"
+version = "0.1.0"
+edition = "2024"
+authors = ["Mohamed A.Taha <Ahmed.Boin@gmail.com>"]
+description = "RaptorQ Distributed File System (RDFS) is a distributed file system that uses RaptorQ codes for data distribution and redundancy."
+license = "MIT OR Apache-2.0"
+
+[lib]
+crate-type = ["lib"]
+name = "rdfs"
+path = "src/lib.rs"
+
+[dependencies]
+sysinfo = { version = "0.35.2", features = ["disk"] }
+anyhow = "1.0"
+thiserror = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+ed25519-dalek = { version = "2.1.1", features = ["rand_core", "digest"] }
+rand = "0.9.1"
+rand_core = "0.9.3"
