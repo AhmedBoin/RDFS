@@ -136,4 +136,12 @@ Feel free to open issues, submit PRs, or fork the project.
 Made with 🦀 and passion by [@AhmedBoin](https://github.com/AhmedBoin)  
 Copyright © 2025
 
+For questions, collaborations, or feedback, feel free to reach out:
+
+• 📧 Gmail: [Ahmed.Boin@gmail.com]
+
+• 💼 LinkedIn: [https://www.linkedin.com/in/ahmed-boin/]
+
+• 🐦 Twitter: [https://x.com/AhmedBoin]
+
 ---
